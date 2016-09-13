@@ -27,3 +27,6 @@ you give 4 talks
 they receive 4
 
 Make Schedule Button
+
+
+Database Structure: https://moqups.com/#!/edit/wjrivera/nPMPfjOQ
