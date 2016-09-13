@@ -1,0 +1,29 @@
+manage talk arrangements between congregations
+
+usage: talk cordinators
+
+Database congregation
+each congregation will have a talk cordinator
+
+Database:
+
+talk - date
+talk - number
+talk - title
+
+talk giver - name
+talk giver - congregation
+talk giver - email
+talk giver - phone
+
+congregation - name
+congregation - arrangements
+congregation - talk coordinator
+
+
+Schedule people in advance
+keep track of congregation arrangements
+you give 4 talks
+they receive 4
+
+Make Schedule Button
