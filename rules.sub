@@ -1,0 +1,32 @@
+####################################################################################
+#
+#
+####################################################################################
+
+subdirs::
+	@for i in $(SUBDIRS);\
+	do \
+	printf "\n********** Building %s **********\n\n" $$i;\
+	cd $$i;\
+	$(MAKE);\
+	cd .. ;\
+	done
+
+
+dep depend::
+	@for i in $(SUBDIRS);\
+	do \
+	printf "\n********** Making dep. for %s **********\n\n" $$i;\
+	cd $$i;\
+	$(MAKE) dep;\
+	cd .. ;\
+	done
+
+clean::
+	@for i in $(SUBDIRS);\
+	do \
+	printf "\n********** Cleaning %s **********\n\n" $$i;\
+	cd $$i;\
+	$(MAKE) clean;\
+	cd .. ;\
+	done
